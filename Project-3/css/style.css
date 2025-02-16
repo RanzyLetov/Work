@@ -1,0 +1,26 @@
+.block1 {
+    font-family: "Open Sans", serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.block2 {
+    text-decoration: line-through;
+}
+.block3 {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+.block4 {
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+    text-shadow: 2px 2px 4px #d35555;
+}
+.block5 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
