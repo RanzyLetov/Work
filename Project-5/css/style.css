@@ -67,6 +67,7 @@ body {
     color: #01A2CB;
     font-weight: 700;
     text-transform: uppercase;
+    margin-left: 8px;
 }
 .paragraph {
     margin-bottom: 14px;
