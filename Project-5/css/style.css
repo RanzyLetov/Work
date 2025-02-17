@@ -1,0 +1,209 @@
+body {
+    background: #181E34;
+    color: #fff;
+    font-family: "Montserrat", serif;;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ====================================================== */
+.header {
+    padding: 30px 0 36px;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    margin-left: auto;
+}
+.header-list {
+    display: flex;
+}
+.header-item {
+    margin-right: 30px;
+}
+.header-button {
+    color: #2766ae;
+    background: #fff;
+    font-weight: 500;
+
+    border-radius: 100px;
+    padding: 14px 30px;
+}
+
+
+
+
+/* ======================================================== */
+
+.hero {
+    padding: 120px 0;
+    background: url(../img/Rectangle\ 1.jpg) 10% 50% / cover no-repeat;
+}
+
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+.hiro-iner {
+    display: flex;
+    justify-content: space-between;
+}
+.hiro-text {
+    max-width: 436px;
+}
+.hiro-text span {
+    color: #01A2CB;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph {
+    margin-bottom: 14px;
+}
+.hiro-buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+
+}
+.hero-baton-one, .hero-baton-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+}
+.hero-baton-one img, 
+.hero-baton-two img {
+    margin-left: 4px;
+}
+.hero-baton-one {
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+.hero-baton-two {
+    background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+}
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+
+
+/* ==================================================== */
+
+
+
+.cards {
+    padding: 120px 0;
+}
+.cards-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cards-text {
+    text-align: center;
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+
+}
+.cards-flex-item {
+    margin-bottom: 28px;
+    padding: 0 14px;
+    flex: 0 0 25%;
+}
+
+.cards-flex-inner {
+    background:  #197CB8;
+    border: 2px solid #176BAE;
+    box-shadow: 4px 4px 13px rgba(5, 13, 41, 0,76);
+    border-radius: 16px;
+    padding: 28px 15px;
+}
+
+.cards-flex-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cards-flex-text {
+    text-align: center;
+}
+.cards-button {
+    display: block;
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    max-width: 436px;
+    margin: 0 auto;
+}
+
+/* код выше я непонял это не читабельно! */
+
+
+
+/* =========================================================== */
+
+
+
+
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+.footer-inner {
+    display: flex;
+}
+.footer-dasc {
+    max-width: 267px;
+    margin-right: auto;
+}
+.footer-dasc a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.footer-col {
+    max-width: 204px;
+    width: 100%;
+}
+.footer-col-margin {
+    margin-bottom: 28px;
+}
+.footer-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-item {
+    margin-bottom: 10px;
+}
+
