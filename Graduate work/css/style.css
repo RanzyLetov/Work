@@ -518,7 +518,7 @@
 
 .subscription__form-input {
     max-width: 250px;
-    width: 100%;
+/*     width: 100%; */
     padding: 16px 32px;
     border: 1px solid var(--general-text);
     border-radius: 54px 0 0 54px;
