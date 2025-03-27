@@ -1,0 +1,68 @@
+:root {
+    --general-bg: #fff;
+    --accent-bg: #dce5e2;
+    --general-text: #000000;
+    --accent-text: #4b4b4b;
+    --transition: all .4s;
+    --border-radius: 32px
+}
+
+.body {
+    position: relative;
+    font-family: 'Inter 18pt', sans-serif;
+    line-height: 1.2;
+    color: #000;
+}
+
+.body__modal-open {
+    overflow: hidden;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main__hero-slider {
+    margin: 28px 0 75px;
+
+}
+
+.main__category,
+.main__оffers,
+.main__the-best,
+.main__ideas,
+.main__search,
+.main__subscription {
+    margin-bottom: 75px;
+}
+
+.container {
+    max-width: 1294px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.title {
+    font-family: "Readex Pro", sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.button {
+    padding: 14px 53px;
+    border: solid 1px #000;
+    border-radius: 200px;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
