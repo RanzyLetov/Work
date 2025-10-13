@@ -27,7 +27,7 @@ for (i = 1; i <= num; i++) {
 alert(`Факториал числа ${num}: ${result}`);
 
 // *Задача 3.
-console.log("Задача 2.");
+console.log("Задача 3.");
 const x = "#";
 const y = " ";
 
