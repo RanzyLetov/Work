@@ -46,12 +46,16 @@ const getTimeOfDay = (time) => {
     switch (true) {
         case time >= 0 && time < 6:
             console.log("Ночь");
+            break;
         case time >= 6 && time < 12:
             console.log("Утро");
+            break;
         case time >= 12 && time < 18:
             console.log("День");
+            break;
         case time >= 18 && time < 24:
             console.log("Вечер");
+            break;
         default:
             console.log("Некорректное время");
     }
