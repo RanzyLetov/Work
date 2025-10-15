@@ -42,7 +42,7 @@ checkAccess("admin", 123456);
 
 // Задача 3.
 
-const getTimeOfDay = time => {
+const getTimeOfDay = (time) => {
     switch (true) {
         case time >= 0 && time < 6:
             console.log("Ночь");
